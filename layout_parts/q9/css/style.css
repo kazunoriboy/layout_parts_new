@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.speach-balloon {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #222;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 16px;
+    position: relative;
+}
 
+.speach-balloon::before {
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    left: 30px;
+    border: 25px solid transparent;
+    border-top: 25px solid #000;
+}
+
+.speach-balloon::after {
+    content: "";
+    position: absolute;
+    bottom: -36px;
+    left: 37px;
+    border: 18px solid transparent;
+    border-top: 18px solid #fff;
+}
 /* 回答はここに書いてね */
