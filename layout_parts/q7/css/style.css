@@ -2,4 +2,95 @@
 
 /* 回答はここに書いてね */
 
+/* common */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 7-1 */
+.q7__inner__item {
+    float: left;
+    width: 225px;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+
+.q7__inner__item:first-child {
+    margin-left: 0;
+}
+
+/* 7-2 */
+.table {
+    display: table;
+    table-layout: fixed;
+}
+
+.table-item {
+    display: table-cell;
+    vertical-align: middle;
+    width: 225px;
+    border-right: 50px solid #ECF1F2;
+}
+
+.table-item:last-child {
+    border-right: none;
+}
+
+/* 7-3 */
+.inlineblock__content {
+    font-size: 0px;
+}
+
+.inlineblock__item {
+    width: 225px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inlineblock__item:first-child {
+    margin-left: 0;
+}
+
+/* 7-4 */
+.flex__wrapper {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.flex__item {
+    width: 225px;
+    box-sizing: border-box;
+}
+
+/* 7-5 */
+.q7-5-content {
+    font-size: 0;
+}
+
+.q7-5-item {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.q7-5-fix {
+    width: 300px;
+    margin-right: 50px;
+}
+
+.q7-5-flex {
+    width: 100%;
+    margin-left: -350px;
+    padding-left: 350px;
+    box-sizing: border-box;
+}
+
 /* 回答はここに書いてね */
