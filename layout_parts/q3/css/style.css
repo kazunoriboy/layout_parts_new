@@ -25,7 +25,7 @@
     border: 1px solid #dedede;
 }
 
-.menu-table__body tr:nth-child(odd) td {
+.menu-table__body tr:nth-child(even) {
     background-color: #ecf1f2;
 }
 
