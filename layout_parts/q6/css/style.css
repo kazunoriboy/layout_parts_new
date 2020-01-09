@@ -22,7 +22,6 @@
 
 .table {
     display: table;
-    table-layout: flex;
     text-align: center;
 }
 
