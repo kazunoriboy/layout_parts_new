@@ -12,9 +12,13 @@
     position: relative;
 }
 
-.speach-balloon::before {
+.speach-balloon::before,
+.speach-balloon::after {
     content: "";
     position: absolute;
+}
+
+.speach-balloon::before {
     bottom: -50px;
     left: 30px;
     border: 25px solid transparent;
@@ -22,8 +26,6 @@
 }
 
 .speach-balloon::after {
-    content: "";
-    position: absolute;
     bottom: -36px;
     left: 37px;
     border: 18px solid transparent;
