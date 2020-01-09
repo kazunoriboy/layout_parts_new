@@ -31,11 +31,11 @@
     display: table-cell;
     vertical-align: middle;
     width: 225px;
-    border-right: 50px solid #ECF1F2;
+    padding-left: 50px;
 }
 
-.table-item:last-child {
-    border-right: none;
+.table-item:first-child {
+    padding-left: 0;
 }
 
 /* 7-3 */
@@ -60,7 +60,6 @@
 .flex__wrapper {
     display: flex;
     align-items: flex-end;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -83,12 +82,11 @@
 
 .q7-5-fix {
     width: 300px;
-    margin-right: 50px;
 }
 
 .q7-5-flex {
     width: 100%;
-    margin-left: -350px;
+    margin-left: -300px;
     padding-left: 350px;
     box-sizing: border-box;
 }
