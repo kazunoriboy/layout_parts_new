@@ -9,6 +9,7 @@
     height: 333px;
     overflow: hidden;
     position: relative;
+    cursor: pointer;
 }
 
 .car-img,
@@ -36,9 +37,9 @@
 
 .overlay__inner {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
     word-break: break-all;
 }
 
